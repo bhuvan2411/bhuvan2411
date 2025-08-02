@@ -1,0 +1,41 @@
+<attachment id="file:data/sample.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <table name="users">
+        <user>
+            <id>1</id>
+            <name>John Doe</name>
+            <email>john.doe@example.com</email>
+        </user>
+        <user>
+            <id>2</id>
+            <name>Jane Smith</name>
+            <email>jane.smith@example.com</email>
+        </user>
+    </table>
+    <table name="orders">
+        <order>
+            <id>101</id>
+            <user_id>1</user_id>
+            <amount>250.00</amount>
+        </order>
+        <order>
+            <id>102</id>
+            <user_id>2</user_id>
+            <amount>150.00</amount>
+        </order>
+    </table>
+    <table name="products">
+        <product>
+            <id>201</id>
+            <name>Widget</name>
+            <price>19.99</price>
+        </product>
+        <product>
+            <id>202</id>
+            <name>Gadget</name>
+            <price>29.99</price>
+        </product>
+    </table>
+</database>
+</attachment>
