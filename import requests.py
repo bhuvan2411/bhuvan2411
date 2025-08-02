@@ -1,3 +1,6 @@
+# Script to fetch live prices for Indian stocks using ISIN-ticker mapping
+# Usage: Run this script in a Python environment with yfinance and tabulate installed.
+# The ISIN-ticker mapping below covers major NSE stocks. Add or update ISINs as needed.
 isin_ticker_map = {
     "INE674K01013": "NSE:ABCAPITAL",
     "INE238A01034": "NSE:AXISBANK",
